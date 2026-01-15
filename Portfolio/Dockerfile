@@ -12,7 +12,7 @@ RUN npm install
 RUN npm run build
 
 #Prod stage
-FROM nginx:alpine
+FROM nginx:alpine AS production 
 
 WORKDIR /app
 
