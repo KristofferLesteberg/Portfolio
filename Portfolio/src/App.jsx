@@ -5,16 +5,14 @@ import Navbar from './Components/Navbar'
 import './App.css'
 import './assets/CSS/global.css'
 import { Link } from 'react-router-dom'
+import Header from './Components/Header'
 
 function App() {
-  
 
   return (
     <>
-      <h1>heisann</h1>
-
-      <Link to={'kontakt'}>Kontakt</Link>
-      <Link to={'prosjekter'}>Prosjekter</Link>
+      <Header />
+      <h1>Kristoffer</h1>
     </>
   )
 }

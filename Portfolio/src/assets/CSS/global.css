@@ -6,4 +6,10 @@ html {
 body {
     background-color: #513C2C;
     color: white;
+    
+}
+a {
+    color: wheat;
+    text-decoration: none;
+    
 }

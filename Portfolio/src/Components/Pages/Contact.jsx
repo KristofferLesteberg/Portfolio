@@ -1,10 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Header from '../Header'
 
 const Contact = () => {
   return (
     <>
-        <Link to={'/'}>Tilbake</Link>
+        <header>
+            <Header />
+        </header>
         <h1>Kontakt</h1>
     </>
   )

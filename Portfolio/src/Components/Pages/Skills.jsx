@@ -1,14 +1,13 @@
 import React from 'react'
 import Header from '../Header'
 
-const Projects = () => {
+const Skills = () => {
   return (
     <>
         <Header />
-        <h1>heisann</h1>
+        <h1>Skills</h1>
     </>
-
   )
 }
 
-export default Projects
+export default Skills
