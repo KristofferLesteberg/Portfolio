@@ -1,0 +1,15 @@
+.header {
+    position: sticky;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid;
+
+    padding: 1.5rem;
+
+    font-size: 30px;
+    font-family: "Pixelify Sans";
+    
+}
+.header a:hover {
+    color: white;
+}

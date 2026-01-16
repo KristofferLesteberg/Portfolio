@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+
+   background-image: url('./assets/Pictures/Background.jpg');
+    background-color: #cccccc;                         /* Fallback color */
+  background-repeat: no-repeat;                       /* Prevent image from repeating */
+                      /* Center the image */
+  background-size: 100vw 100vh; 
+}
