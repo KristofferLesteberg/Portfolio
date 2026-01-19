@@ -9,9 +9,10 @@ const Navbar = () => {
   return (
     <>
       <div className={styles.navbar}>
-        <Link to={"/prosjekter"}>Projects</Link>
-        <Link to={"/kristoffer"}>About</Link>
+        <Link to={"/prosjekter"}>Prosjekter</Link>
+        <Link to={"/kristoffer"}>Om meg</Link>
         <Link to={"/ferdigheter"}>Teknologier</Link>
+        <Link to={"/kontakt"}>Kontakt meg!</Link>
       </div>
     </>
   )

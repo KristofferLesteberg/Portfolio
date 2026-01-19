@@ -1,7 +1,8 @@
 .header {
     position: sticky;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+
     border-bottom: 1px solid;
 
     padding: 1.5rem;
@@ -11,7 +12,8 @@
     
 }
 .header a:hover {
-    color: white;    
+    color: white;  
+    
 }
 
 .header a {
@@ -21,4 +23,5 @@
         -1px  1px 0 #000,
          1px  1px 0 #000;
 }
+
 

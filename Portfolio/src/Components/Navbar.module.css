@@ -1,8 +1,8 @@
 .navbar {
-    max-width: 100%;
     width: 50vw;
-    
     display: flex;
-    justify-content: center;
-    gap: 4em;
+    justify-content: space-around;
+
+    
 }
+

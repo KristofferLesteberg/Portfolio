@@ -8,15 +8,13 @@ const Header = () => {
   return (
     <>
       <header className={styles.header}>
-        <div className='name'>
-          <Link to={"/"}>Kristoffer</Link>
+        <div>
+          <Link to={"/"}>Hjem</Link>
         </div>
         <div className='navbar'>
           <Navbar />
         </div>
-        <div className='contact'>
-          <Link to={"/kontakt"}>Kontakt meg</Link>
-        </div>
+        
       </header>
     </>
     
