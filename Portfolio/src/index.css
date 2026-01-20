@@ -2,15 +2,12 @@ html, body {
     margin: 0;
     padding: 0;
 
-    background-color: #088F8F;
-
-    overflow: scroll;
+    background-color: var(--primary-bg-color);
     padding-bottom: 80px;
 }
 
 .frontPage {
-    color: white;
-
+    color: var(--primary-txt-color);
     font-weight: bold;
 
     width: 75vw;
@@ -18,28 +15,23 @@ html, body {
     margin-right: auto;
     margin-top: 7rem;
 
-    font-size: 3rem;
+    font-size: var(--heading-txt-size);
 
-    
     display: flex;
     flex-direction: column;
 }
 
-
-
 .frontBtn {
     background-color: #F0EAD6;
-    color: rebeccapurple;
+    color: var(--secondary-txt-color);
 
-    
     font-weight: bold;
-
-    font-size: 1rem;
+    font-size: var(--btn-txt-size);
 
     width: 15vw;
     height: 5vh;
 
-    border-radius: 10px;
+    border-radius: var(--btn-radius);
 }
 
 .frontBtn:hover {
@@ -48,14 +40,10 @@ html, body {
 }
 
 .frontHeading {
-    text-decoration:underline;
-
     margin-bottom:1rem;
 }
 
 .frontText {
-    
-    
     margin-top: 10rem;
 
     font-size: 0.8rem;

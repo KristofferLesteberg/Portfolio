@@ -1,0 +1,11 @@
+:root {
+    --primary-bg-color: #088F8F;
+    --secondary-bg-color: #F0EAD6;
+    --primary-txt-color: #F9F6EE;
+    --secondary-txt-color: #483248;
+
+    --heading-txt-size: 3rem;
+
+    --btn-txt-size: 1rem;
+    --btn-radius: 10px;
+}
