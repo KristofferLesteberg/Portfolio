@@ -1,5 +1,6 @@
 .header {
     position: sticky;
+    top: 0;
     display: flex;
     justify-content: space-between;
 
@@ -7,21 +8,21 @@
 
     padding: 1.5rem;
 
-    font-size: 30px;
-    font-family: "Pixelify Sans";
+    font-size: 25px;
+    font-weight: bold;
+    
+
+    background-color: #F0EAD6;
+    font-family: 'JetBrains Mono', monospace;
     
 }
 .header a:hover {
-    color: white;  
+    color: #153243; 
     
 }
-
 .header a {
-    text-shadow:
-        -1px -1px 0 #000,
-         1px -1px 0 #000,
-        -1px  1px 0 #000,
-         1px  1px 0 #000;
-}
+    text-decoration: none;
+    cursor: pointer;
 
+}
 

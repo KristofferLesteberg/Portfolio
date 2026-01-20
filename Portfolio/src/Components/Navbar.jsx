@@ -12,7 +12,7 @@ const Navbar = () => {
         <Link to={"/prosjekter"}>Prosjekter</Link>
         <Link to={"/kristoffer"}>Om meg</Link>
         <Link to={"/ferdigheter"}>Teknologier</Link>
-        <Link to={"/kontakt"}>Kontakt meg!</Link>
+        <Link to={"/kontakt"}>Kontakt meg</Link>
       </div>
     </>
   )

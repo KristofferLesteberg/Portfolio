@@ -2,7 +2,8 @@
   position: fixed;
   bottom: 0;
   width: 100vw;
-  background-color: grey;
+  background-color: rgb(240, 234, 214);
 
+  border-top: 1px solid black;
 }
 

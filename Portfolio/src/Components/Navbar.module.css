@@ -1,8 +1,6 @@
 .navbar {
     width: 50vw;
     display: flex;
-    justify-content: space-around;
-
-    
+    justify-content: space-around; 
 }
 
