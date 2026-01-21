@@ -22,6 +22,6 @@
 .header a {
     text-decoration: none;
     cursor: pointer;
-
+    color: var(--secondary-txt-color);
 }
 

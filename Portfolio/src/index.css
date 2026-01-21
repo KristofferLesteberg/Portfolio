@@ -33,7 +33,6 @@ html, body {
 
     border-radius: var(--btn-radius);
 }
-
 .frontBtn:hover {
     box-shadow: 10px 10px 25px rgba(21, 50, 100, 0.5);
     cursor: pointer;
@@ -50,6 +49,13 @@ html, body {
 
     text-decoration: none;
     margin-top: 0;
- 
-    
+}
+
+.Me {
+   margin-top: 10rem;
+}
+.meHeading {
+    font-size: var(--heading-txt-size);
+    font-weight: bold;
+    color: var(--primary-txt-color)
 }

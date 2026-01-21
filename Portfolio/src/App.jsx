@@ -13,7 +13,6 @@ function App() {
   return (
     <>
       <Header />
-      
       <div className='frontPage animate__animated animate__fadeInUp'>
         <h1 className='frontHeading'>
           Heisann! <br />
@@ -31,6 +30,27 @@ function App() {
           <button className='frontBtn'>Se hva jeg har lagd!</button>
         </Link>
       </div>
+    <main>
+      <div className='Me'>
+        <h1 className='meHeading'>Hvem er jeg?</h1>
+          <div className='school'>
+            <h1>Elev ved Sam Eyde Vgs.</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed aperiam omnis mollitia labore eum, sequi ab similique iste dicta quaerat obcaecati porro sapiente at voluptate qui animi blanditiis, alias culpa.</p>
+
+          </div>
+          <div className='hobbies'>
+
+          </div>
+          <div className='instrests'></div>
+
+
+      </div>
+    </main>  
+
+
+      <br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <Footer />
     </>
   )
