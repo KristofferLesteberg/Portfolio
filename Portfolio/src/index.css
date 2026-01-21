@@ -6,7 +6,32 @@ html, body {
     padding-bottom: 80px;
 }
 
+.front {
+    display: flex;
+}
+
+.frontImg {
+    width: 30rem;
+    height: auto;
+    max-width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .frontImg {
+        visibility: hidden;
+        display: none;
+      
+    }
+    .front {
+        font-size: var(--heading-txt-phone-size);
+    }
+    
+
+}
+
 .frontPage {
+    position: relative;
+    z-index: 1;
     color: var(--primary-txt-color);
     font-weight: bold;
 
@@ -19,6 +44,8 @@ html, body {
 
     display: flex;
     flex-direction: column;
+
+
 }
 
 .frontBtn {
@@ -33,6 +60,8 @@ html, body {
 
     border-radius: var(--btn-radius);
 }
+
+
 .frontBtn:hover {
     box-shadow: 10px 10px 25px rgba(21, 50, 100, 0.5);
     cursor: pointer;
@@ -43,19 +72,28 @@ html, body {
 }
 
 .frontText {
-    margin-top: 10rem;
-
+   
     font-size: 0.8rem;
-
     text-decoration: none;
-    margin-top: 0;
+    margin-top: -2rem;
 }
 
-.Me {
-   margin-top: 10rem;
-}
 .meHeading {
     font-size: var(--heading-txt-size);
     font-weight: bold;
     color: var(--primary-txt-color)
 }
+
+.frontMain {
+    margin-top: 10rem;
+
+    border: 1px solid;
+
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+

@@ -4,8 +4,12 @@
     --primary-txt-color: #F9F6EE;
     --secondary-txt-color: #483248;
 
-    --heading-txt-size: 3rem;
+
+    --heading-txt-size: 2.5rem;
+    --heading-txt-phone-size: 2rem;
 
     --btn-txt-size: 1rem;
     --btn-radius: 10px;
+
+
 }
