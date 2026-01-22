@@ -3,7 +3,11 @@ html, body {
     padding: 0;
 
     background-color: var(--primary-bg-color);
-    padding-bottom: 80px;
+    width: 100%;
+
+    overscroll-behavior: none;
+
+    
 }
 
 .front {
@@ -44,8 +48,6 @@ html, body {
 
     display: flex;
     flex-direction: column;
-
-
 }
 
 .frontBtn {
@@ -61,21 +63,25 @@ html, body {
     border-radius: var(--btn-radius);
 }
 
+.frontBtn a {
+    color: var(--secondary-txt-color);
+    text-decoration: none;
+}
+
 
 .frontBtn:hover {
     box-shadow: 10px 10px 25px rgba(21, 50, 100, 0.5);
     cursor: pointer;
 }
 
-.frontHeading {
-    margin-bottom:1rem;
-}
+
 
 .frontText {
-   
     font-size: 0.8rem;
     text-decoration: none;
     margin-top: -2rem;
+
+    
 }
 
 .meHeading {
@@ -86,14 +92,12 @@ html, body {
 
 .frontMain {
     margin-top: 10rem;
-
     border: 1px solid;
 
     width: 75vw;
     margin-left: auto;
     margin-right: auto;
-
-
+    flex: 1;
 }
 
 

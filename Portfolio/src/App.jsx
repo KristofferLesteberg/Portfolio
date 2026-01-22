@@ -34,9 +34,20 @@ function App() {
               praktisk læring og kontinuerlig utforsking av teknologi.
            </h2>
       </div>
-        <Link to={"/prosjekter"}>
-          <button className='frontBtn'>Se hva jeg har lagd!</button>
-        </Link>
+        <div className='frontBtns'>
+          <Link to={"/prosjekter"}>
+            <button className='frontBtn'>Se hva jeg har lagd!</button>
+          </Link>
+          <button className='frontBtn'>
+            <a 
+              href='cv/Kristoffer_Lesteberg_CV.pdf' 
+              download
+              type='application/pdf'
+            >
+                last ned CV-en min!
+            </a>
+          </button>
+        </div>
       </div>
     <main className='frontMain'>
       <div className='Me'>
@@ -53,6 +64,8 @@ function App() {
           </div>
       </div>
     </main>  
+
+    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <Footer />
     </>
   )
