@@ -63,8 +63,6 @@ html, body {
     
 }
 
-
-
 .frontBtn {
     background-color: #F0EAD6;
     color: var(--secondary-txt-color);
@@ -91,29 +89,8 @@ html, body {
     cursor: pointer;
 }
 
-.frontText {
-    font-size: 0.8rem;
-    text-decoration: none;
 
-    margin-top: -4rem;
-   
-}
 
-.meHeading {
-    
-    font-size: var(--heading-txt-size);
-    font-weight: bold;
-    color: var(--primary-txt-color)
-}
 
-.frontMain {
-    margin-top: 10rem;
-    border: 1px solid;
-
-    width: 75vw;
-    margin-left: auto;
-    margin-right: auto;
-    flex: 1;
-}
 
 

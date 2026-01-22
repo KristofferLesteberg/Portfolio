@@ -21,6 +21,7 @@
 
 .header a:hover {
     color: #153243; 
+    text-decoration: underline;
 }
 
 .home {

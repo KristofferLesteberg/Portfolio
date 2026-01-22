@@ -9,6 +9,7 @@ import "./assets/CSS/global.css"
 
 import 'animate.css'
 import picture from './assets/Pictures/CV_Bilde.png'
+import AboutMe from './Components/AboutMe'
 
 function App() {
   return (
@@ -49,22 +50,7 @@ function App() {
           </button>
         </div>
       </div>
-    <main className='frontMain'>
-      <div className='Me'>
-        <h1 className='meHeading'>Hvem er jeg?</h1>
-          <div className='school'>
-            <h1>Elev ved Sam Eyde Vgs.</h1>
-              <p>Jeg er elev på Sam Eyde vgs. Jeg går i andre klasse på linjen informasjonsteknologi.</p>
-          </div>
-          <div className='hobbies'>
-
-          </div>
-          <div className='instrests'>
-
-          </div>
-      </div>
-    </main>  
-
+    <AboutMe />
     <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <Footer />
     </>
