@@ -6,9 +6,13 @@ html, body {
     width: 100%;
 
     overscroll-behavior: none;
-
-    
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 
 .front {
     display: flex;
@@ -26,8 +30,12 @@ html, body {
         display: none;
       
     }
-    .front {
+    .frontHeading {
         font-size: var(--heading-txt-phone-size);
+    }
+
+    .frontBtn {
+        font-size: 2px;
     }
     
 
@@ -44,11 +52,18 @@ html, body {
     margin-right: auto;
     margin-top: 7rem;
 
-    font-size: var(--heading-txt-size);
+    
 
     display: flex;
     flex-direction: column;
 }
+
+.frontHeading {
+    font-size: var(--heading-txt-size);
+    
+}
+
+
 
 .frontBtn {
     background-color: #F0EAD6;
@@ -57,8 +72,10 @@ html, body {
     font-weight: bold;
     font-size: var(--btn-txt-size);
 
-    width: 15vw;
-    height: 5vh;
+    width: 12em;
+    height: auto;
+    min-height: 5vh;
+    
 
     border-radius: var(--btn-radius);
 }
@@ -74,17 +91,16 @@ html, body {
     cursor: pointer;
 }
 
-
-
 .frontText {
     font-size: 0.8rem;
     text-decoration: none;
-    margin-top: -2rem;
 
-    
+    margin-top: -4rem;
+   
 }
 
 .meHeading {
+    
     font-size: var(--heading-txt-size);
     font-weight: bold;
     color: var(--primary-txt-color)
