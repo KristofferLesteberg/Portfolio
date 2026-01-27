@@ -54,7 +54,7 @@ function App() {
         </div>
       </div>
     <AboutMe />
-    <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+   
       <Footer />
     </>
   )
