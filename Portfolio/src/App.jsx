@@ -11,7 +11,10 @@ import 'animate.css'
 import picture from './assets/Pictures/CV_Bilde.png'
 import AboutMe from './Components/AboutMe'
 
+import Dropdown from 'react-bootstrap/Dropdown'
+
 function App() {
+  
   return (
     <>
       <Header />

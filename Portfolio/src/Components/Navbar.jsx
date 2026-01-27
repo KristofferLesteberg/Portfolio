@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import Projects from '../Pages/Projects'
 import About from '../Pages/About'
@@ -6,6 +6,7 @@ import About from '../Pages/About'
 import styles from '../Components/Navbar.module.css'
 
 const Navbar = () => {
+ 
   return (
     <>
       <div className={styles.navbar}>

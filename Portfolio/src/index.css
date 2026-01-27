@@ -24,22 +24,7 @@ html, body {
     max-width: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
-    .frontImg {
-        visibility: hidden;
-        display: none;
-      
-    }
-    .frontHeading {
-        font-size: var(--heading-txt-phone-size);
-    }
 
-    .frontBtn {
-        font-size: 2px;
-    }
-    
-
-}
 
 .frontPage {
     position: relative;
@@ -51,8 +36,6 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-top: 7rem;
-
-    
 
     display: flex;
     flex-direction: column;
@@ -89,6 +72,29 @@ html, body {
     cursor: pointer;
 }
 
+
+@media only screen and (max-width: 1000px) {
+    .frontImg {
+        visibility: hidden;
+        display: none;
+      
+    }
+    .frontHeading {
+        font-size: var(--heading-txt-phone-size);
+        text-align: center;
+       
+    }
+
+    .frontPage {
+        margin-top: 4em;
+    }
+
+    
+    .frontText {
+        font-size: var(--p-txt-phone-size);
+    }
+
+}
 
 
 

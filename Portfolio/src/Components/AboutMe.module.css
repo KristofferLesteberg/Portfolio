@@ -1,13 +1,36 @@
+
 .aboutMeMain {
     margin-top: 13rem;
-    
 }
 
 .container {
     display: grid;
-    grid-template-columns: 50% 50%;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+    row-gap: 3em;
 }
 
 .item {
     border: 1px solid;
+    width: 30vw;
+}
+
+
+.parentContainer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) { 
+    .item {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 500px) { 
+    .item {
+        width: 80vw;
+    }
 }
