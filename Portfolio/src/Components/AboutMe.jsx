@@ -10,6 +10,7 @@ const AboutMe = () => {
     <div className={styles.aboutMeMain}>
         <div className={styles.parentContainer}>
             <h1 className={styles.aboutMeh1}>Hvem er Jeg?</h1>
+            <hr />
             <div className={styles.container}>
                 <div className={`${styles.school} ${styles.item}`}>
                 <img src={SamEyde} />
@@ -27,6 +28,8 @@ const AboutMe = () => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil, pariatur error at officia dolorum esse beatae dolore, tempora laborum tenetur eum fugit! Architecto, veritatis reprehenderit laudantium dolorem tempora quibusdam.</p>
 
             </div>
+            
+          
 
             </div>
 
