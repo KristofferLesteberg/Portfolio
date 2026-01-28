@@ -27,7 +27,6 @@ const Footer = () => {
           <div className={`${styles.email} ${styles.item}`}>
             <h2>Send meg en mail</h2>
             <MessageMe />
-           
           </div>
         </div>
       </div>

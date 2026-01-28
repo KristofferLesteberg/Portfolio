@@ -45,8 +45,53 @@ p {
   gap: 10px;
 }
 
+/*Form styles*/
+form {
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+
+.formContent {
+  width: 30vw;
+  height: 80%;
+  border: 1px solid black;
+
+
+  margin-top: 5px;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+
+button {
+  color: var(--secondary-txt-color);
+  font-size: var(--btn-txt-size);
+  font-weight: bold;
+  background-color: white;
+  width: 25%;
+  height: 50px;
+
+  margin-left: auto;
+  cursor: pointer;
+}
+
+
+
 @media only screen and (max-width: 800px) {
   .container {
     grid-template-columns: 70%;
   }
+
+  .formContent {
+    width: 70vw;
+  }
+
+  
+  
 }
+
