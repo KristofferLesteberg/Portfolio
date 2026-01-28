@@ -14,8 +14,7 @@ const messageMe = () => {
     const sendEmail = (e) => {
         e.preventDefault()
         
-        if(name != "" && email != "" && textarea != "") {
-                
+        if(name != "" && email != "" && textarea != "") {  
                 emailjs
                 .sendForm("service_z3rvxlj", "template_pmzitur", form.current, { 
                     publicKey: "dfkUZB2Va2U5FH84E",

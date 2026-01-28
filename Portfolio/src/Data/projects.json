@@ -1,11 +1,47 @@
-[
+[ 
+    { 
+        "id": 1, 
+        "name": "Flappy Bird Klone", 
+        "image": "../assets/Pictures/SamEyde.jpg", 
+        "Description": "Mitt andre YFF prosjekt på vg1 og første gang jeg prøvde meg på spillutvikling. Spillet inneholder en veldig enkel start og slutt menu (død menu). Spillet holder også styr på poeng og har et eget leaderboard (lokal tekstfil). ", 
+        "Status": "Ferdig", 
+        "Tech": "c++, raylib, 2D grafikk, AABB-kollisjondeteksjon, grunnleggende fysikksimulering", 
+        "Github": "https://github.com/KristofferLesteberg/Flappbird-clone" 
+    },
+
     {
-        "id": 1,
-        "name": "Flappy Bird Klone",
+        "id": 2,
+        "name": "Portfolio webiste",
         "image": "",
-        "Description": "Flappy bird spill",
-        "Status": "Nesten ferdig",
-        "Tech": "c++, raylib",
-        "Github": ""
+        "Description": "",
+        "Status": "Pågående",
+        "Github": "https://github.com/KristofferLesteberg/Portfolio"
+    },
+
+    {
+        "id": 3,
+        "name": "Soduko generator",
+        "Github": "https://github.com/KristofferLesteberg/Soduko_game"
+    },
+
+    {
+        "id": 4,
+        "name": "Classlink",
+        "image": "",
+        "Description": "",
+        "Status": "Ferdig, ble tatt over",
+        "Github": "https://github.com/KristofferLesteberg/ClassLink"
+
+    },
+
+    {
+        "id": 5,
+        "name": "Vektapp",
+        "image": "",
+        "Description": "",
+        "Status": "Ikke ferdig, lagt bort",
+        "Github": "https://github.com/KristofferLesteberg/VektApp-repo"
+
     }
+ 
 ]
