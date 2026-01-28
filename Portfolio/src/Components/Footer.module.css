@@ -54,6 +54,8 @@ form {
   gap: 20px;
 }
 
+
+
 .formContent {
   width: 30vw;
   height: 80%;
@@ -78,6 +80,14 @@ button {
 
   margin-left: auto;
   cursor: pointer;
+}
+
+.message{
+  margin: 0;
+  padding: 0;
+
+  font-weight: bold;
+  font-size: var(--)
 }
 
 

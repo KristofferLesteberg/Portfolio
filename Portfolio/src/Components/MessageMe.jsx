@@ -12,33 +12,48 @@ const messageMe = () => {
     const [textarea, setTextarea] = useState("")
 
     const sendEmail = (e) => {
-        
         e.preventDefault()
-        emailjs
-            .sendForm("service_z3rvxlj", "template_pmzitur", form.current, { 
-                publicKey: "dfkUZB2Va2U5FH84E",
-            })
-            .then(() => {
-                console.log("Success")
-                setMessage("Takk for meldingen")
+        
+        if(name != "" && email != "" && textarea != "") {
+                
+                emailjs
+                .sendForm("service_z3rvxlj", "template_pmzitur", form.current, { 
+                    publicKey: "dfkUZB2Va2U5FH84E",
+                })
+                .then(() => {
+                    console.log("Success")
+                    setMessage("Takk for meldingen!")
 
-                setTimeout(() => {
-                    setMessage("")
-                }, 5000)
+                    setTimeout(() => {
+                        setMessage("")
+                    }, 5000)
 
-            }, (error) => {
-                console.log("failed", error.text)
-                setMessage("Meldingen ble ikke sendt...")
-            }
-        )
+                }, (error) => {
+                    console.log("failed", error.text)
+                    setMessage("Meldingen ble ikke sendt...")
+                    setTimeout(() => {
+                        setMessage("")
+                    }, 5000)
+                }
+            )
+
         setName("")
         setEmail("")
-        setTextarea("")        
-    }
+        setTextarea("") 
 
+        } else {
+            setMessage("Fyll ut alle feltene")
+            setTimeout(() => {
+                setMessage("")
+            }, 5000)   
+        }
+    }
 
   return (
     <form ref={form} onSubmit={sendEmail} >
+        {message && (
+            <p className={styles.message}>{message}</p>
+        )}
         <div>
             <label>Navn *</label><br />
             <input
@@ -69,10 +84,11 @@ const messageMe = () => {
             />
         </div>
       <button 
-      type='submit'>
+        type='submit'>
         Send
+        
       </button>
-      <p>{message}</p>
+      
     </form>
 
     

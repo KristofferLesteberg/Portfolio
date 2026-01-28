@@ -11,8 +11,8 @@ const Footer = () => {
           <div className={`${styles.contact} ${styles.item}`}>
             <h2>Kontakt meg</h2>
             <div className={styles.options}>
-              <p>Email: Kristofferihmelesteberg@gmail.com</p>
-              <p>Tlf: 904 16 157</p>
+              <p>Email: <br />Kristofferihmelesteberg@gmail.com</p>
+              <p>Tlf:<br /> 904 16 157</p>
             </div>
           </div>
           <div className={`${styles.socials} ${styles.item}`}>

@@ -44,11 +44,9 @@ function App() {
           </Link>
           <button className='frontBtn'>
             <a 
-              href='cv/Kristoffer_Lesteberg_CV.pdf' 
-              download
-              type='application/pdf'
+              href='https://share.sevgs.no/CVer/Kristoffer_Lesteberg_CV.pdf' 
             >
-                last ned CV-en min!
+                Se på CV en min
             </a>
           </button>
         </div>
