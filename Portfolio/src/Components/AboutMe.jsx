@@ -1,9 +1,9 @@
 import React from 'react'
 
 import styles from './AboutMe.module.css'
-import SamEyde from '../assets/Pictures/SamEyde.jpg'
-import codeExample from '../assets/Pictures/codeExampleImg.jpg'
-import leader from '../assets/Pictures/LeaderExampleimg.jpg'
+import SamEyde from '/Pictures/SamEyde.jpg'
+import codeExample from '/Pictures/codeExampleImg.jpg'
+import leader from '/Pictures/LeaderExampleImg.jpg'
 
 const AboutMe = () => {
   return (

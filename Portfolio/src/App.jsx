@@ -8,7 +8,7 @@ import Footer from './Components/Footer'
 import "./assets/CSS/global.css"
 
 import 'animate.css'
-import picture from './assets/Pictures/CV_Bilde.png'
+import picture from '/Pictures/CV_Bilde.png'
 import AboutMe from './Components/AboutMe'
 
 import Dropdown from 'react-bootstrap/Dropdown'

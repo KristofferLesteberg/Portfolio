@@ -5,7 +5,6 @@ import Footer from '../Components/Footer'
 
 import projects from '../Data/projects.json'
 
-
 const Projects = () => {
 
   console.log(projects)
@@ -33,7 +32,7 @@ const Projects = () => {
                       <span>Tech stack:</span><br />{project.Tech}
                     </p>
                     <p>
-                      <span>Github: </span><a href={project.Github}><br />{project.Github}</a>
+                      <span>Github: </span><a href={project.Github}><br />Trykk her!</a>
                     </p>
                   </div>
                 ))}
@@ -42,7 +41,6 @@ const Projects = () => {
           </main>
         <Footer />
     </>
-
   )
 }
 

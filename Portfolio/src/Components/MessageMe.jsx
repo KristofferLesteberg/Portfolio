@@ -4,49 +4,49 @@ import styles from '../Components/Footer.module.css'
 
 const messageMe = () => {
 
-    const form = useRef()
-    const [message, setMessage] = useState("") 
+const form = useRef()
+const [message, setMessage] = useState("") 
 
-    const [name, setName] = useState("")
-    const [email, setEmail] = useState("")
-    const [textarea, setTextarea] = useState("")
+const [name, setName] = useState("")
+const [email, setEmail] = useState("")
+const [textarea, setTextarea] = useState("")
 
-    const sendEmail = (e) => {
-        e.preventDefault()
-        
-        if(name != "" && email != "" && textarea != "") {  
-                emailjs
-                .sendForm("service_z3rvxlj", "template_pmzitur", form.current, { 
-                    publicKey: "dfkUZB2Va2U5FH84E",
-                })
-                .then(() => {
-                    console.log("Success")
-                    setMessage("Takk for meldingen!")
+const sendEmail = (e) => {
+    e.preventDefault()
+            
+    if(name != "" && email != "" && textarea != "") {  
+            emailjs
+            .sendForm("service_z3rvxlj", "template_pmzitur", form.current, { 
+                publicKey: "dfkUZB2Va2U5FH84E",
+            })
+            .then(() => {
+                console.log("Success")
+                setMessage("Takk for meldingen!")
 
-                    setTimeout(() => {
-                        setMessage("")
-                    }, 5000)
+                setTimeout(() => {
+                    setMessage("")
+                }, 5000)
 
-                }, (error) => {
-                    console.log("failed", error.text)
-                    setMessage("Meldingen ble ikke sendt...")
-                    setTimeout(() => {
-                        setMessage("")
-                    }, 5000)
-                }
-            )
+            }, (error) => {
+                console.log("failed", error.text)
+                setMessage("Meldingen ble ikke sendt...")
+                setTimeout(() => {
+                    setMessage("")
+                }, 5000)
+            }
+        )
+    setName("")
+    setEmail("")
+    setTextarea("") 
 
-        setName("")
-        setEmail("")
-        setTextarea("") 
-
-        } else {
-            setMessage("Fyll ut alle feltene")
-            setTimeout(() => {
-                setMessage("")
-            }, 5000)   
-        }
+    } else {
+        setMessage("Fyll ut alle feltene")
+        setTimeout(() => {
+            setMessage("")
+        }, 5000)   
     }
+}
+
 
   return (
     <form ref={form} onSubmit={sendEmail} >
@@ -61,6 +61,7 @@ const messageMe = () => {
                 value={name}
                 onChange={e => setName(e.target.value)}
                 className={styles.formContent}
+                required
             />
         </div>
         <div>
@@ -71,6 +72,7 @@ const messageMe = () => {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 className={styles.formContent}
+                required
             />
         </div>
         <div>
@@ -80,14 +82,13 @@ const messageMe = () => {
                 value={textarea}
                 onChange={e => setTextarea(e.target.value)}
                 className={styles.formContent}
+                required
             />
         </div>
       <button 
         type='submit'>
         Send
-        
       </button>
-      
     </form>
 
     

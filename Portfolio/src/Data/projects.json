@@ -2,7 +2,7 @@
     { 
         "id": 1, 
         "name": "Flappy Bird Klone", 
-        "image": "../assets/Pictures/SamEyde.jpg", 
+        "image": "/Pictures/FlappyBird.png", 
         "Description": "Mitt andre YFF prosjekt på vg1 og første gang jeg prøvde meg på spillutvikling. Spillet inneholder en veldig enkel start og slutt menu (død menu). Spillet holder også styr på poeng og har et eget leaderboard (lokal tekstfil). ", 
         "Status": "Ferdig", 
         "Tech": "c++, raylib, 2D grafikk, AABB-kollisjondeteksjon, grunnleggende fysikksimulering", 
@@ -12,7 +12,7 @@
     {
         "id": 2,
         "name": "Portfolio webiste",
-        "image": "",
+        "image": "/Pictures/PortfolioProsjekt.png",
         "Description": "",
         "Status": "Pågående",
         "Github": "https://github.com/KristofferLesteberg/Portfolio"
@@ -21,13 +21,14 @@
     {
         "id": 3,
         "name": "Soduko generator",
+        "image": "/Pictures/SodukoGeneratorProsjekt.png",
         "Github": "https://github.com/KristofferLesteberg/Soduko_game"
     },
 
     {
         "id": 4,
         "name": "Classlink",
-        "image": "",
+        "image": "/Pictures/ClassLinkProsjekt.png",
         "Description": "",
         "Status": "Ferdig, ble tatt over",
         "Github": "https://github.com/KristofferLesteberg/ClassLink"
