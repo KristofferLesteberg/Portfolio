@@ -11,14 +11,16 @@ const Navbar = () => {
   const [menyPressed, setMenyPressed] = useState(false)
 
   const mobile = useWindowSize().width < 1000
+
+  const changeMenPressed = () => setMenyPressed(!menyPressed)
   
 return <>
   {mobile && (
-    <button onClick={() => setMenyPressed(true)}>
-      knapp
+    <button onClick={() => changeMenPressed()}>
+      <span>meny</span>
     </button>
   )}
-      <div className={menyPressed ? styles.mobileNavBar : styles.navbar}>
+      <div className={menyPressed && mobile ? styles.mobileNavBar : styles.navbar}>
         <Link 
           to={"/prosjekter"} 
           className={styles.navItem}>

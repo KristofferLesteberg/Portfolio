@@ -20,14 +20,28 @@
 }
 
 .mobileNavBar {
+  padding: 7px;
+  padding-top: 2rem;
+  position: absolute;
+  right: 1px;
   display: flex;
   flex-direction: column;
-  border: 1px solid red;
+
+  background-color: var(--secondary-bg-color);
+  height: 50vw;
+  
  
-  gap: 3rem;
+  gap: 2rem;
   color: var(--secondary-txt-color);
+  
 }
 
+button {
+  background-color: var(--secondary-bg-color);
+  border: none;
+  width: fit-content;
+  
+}
 
 
 @media (max-width: 1000px) {
