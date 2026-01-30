@@ -5,11 +5,20 @@ import About from '../Pages/About'
 
 import styles from '../Components/Navbar.module.css'
 
+import { useWindowSize } from '@uidotdev/usehooks'
+
 const Navbar = () => {
- 
-  return (
-    <>
-      <div className={styles.navbar}>
+  const [menyPressed, setMenyPressed] = useState(false)
+
+  const mobile = useWindowSize().width < 1000
+  
+return <>
+  {mobile && (
+    <button onClick={() => setMenyPressed(true)}>
+      knapp
+    </button>
+  )}
+      <div className={menyPressed ? styles.mobileNavBar : styles.navbar}>
         <Link 
           to={"/prosjekter"} 
           className={styles.navItem}>
@@ -26,8 +35,7 @@ const Navbar = () => {
           Kontakt meg
           </Link>
       </div>
-    </>
-  )
+</>
 }
 
 export default Navbar
