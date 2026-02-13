@@ -1,0 +1,31 @@
+.container {
+    margin-top: var(--default--marginTop-header);
+
+}
+
+.contactMeH1 {
+    color: white;
+    margin-left: 10rem;
+}
+
+.contactMain {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+
+    border: 1px solid;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+
+    flex-wrap: wrap;
+}
+
+.section {
+    min-width: 50%;
+    border: 1px solid;
+}
+
+.section button {
+    width: 20%;
+}

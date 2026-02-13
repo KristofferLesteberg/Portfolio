@@ -12,11 +12,11 @@ const Navbar = () => {
 
   const mobile = useWindowSize().width < 1000
 
-  const changeMenPressed = () => setMenyPressed(!menyPressed)
+  const changeMenuPressed = () => setMenyPressed(!menyPressed)
   
 return <>
   {mobile && (
-    <button onClick={() => changeMenPressed()}>
+    <button onClick={() => changeMenuPressed()}>
       <span>meny</span>
     </button>
   )}

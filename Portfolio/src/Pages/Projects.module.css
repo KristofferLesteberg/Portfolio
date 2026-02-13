@@ -1,6 +1,6 @@
 
 main {
-    margin-top: 10rem;
+    margin-top: var(--default--marginTop-header);
     margin-bottom: 10rem; 
 }
 

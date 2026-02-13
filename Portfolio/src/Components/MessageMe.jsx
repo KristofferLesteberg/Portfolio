@@ -40,7 +40,7 @@ const sendEmail = (e) => {
     setTextarea("") 
 
     } else {
-        setMessage("Fyll ut alle feltene")
+        setMessage("Fyll ut alle feltene.")
         setTimeout(() => {
             setMessage("")
         }, 5000)   
@@ -61,7 +61,6 @@ const sendEmail = (e) => {
                 value={name}
                 onChange={e => setName(e.target.value)}
                 className={styles.formContent}
-                required
             />
         </div>
         <div>
@@ -72,7 +71,6 @@ const sendEmail = (e) => {
                 value={email}
                 onChange={e => setEmail(e.target.value)}
                 className={styles.formContent}
-                required
             />
         </div>
         <div>
@@ -82,7 +80,6 @@ const sendEmail = (e) => {
                 value={textarea}
                 onChange={e => setTextarea(e.target.value)}
                 className={styles.formContent}
-                required
             />
         </div>
       <button 
