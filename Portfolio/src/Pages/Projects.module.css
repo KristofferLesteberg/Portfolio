@@ -5,7 +5,7 @@ main {
 }
 
 .projectHead {
-  color: white;
+  color: var(--primary-txt-color);
 
   font-size: 30px;
   text-align: center;
