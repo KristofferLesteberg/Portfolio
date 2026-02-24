@@ -15,7 +15,7 @@
         "image": "/Pictures/PortfolioProsjekt.png",
         "Description": "Prosjektet du ser på akkurat nå. Mitt eget nettsted der jeg viser fram prosjekter, ferdigheter og hvem jeg er. Dette prosjektet blir jeg nok aldri ferdig med fordi jeg vil og håper at jeg vil alltid utvikle meg selv som programmere og lage nye kule prosjekter",
         "Status": "Pågående",
-        "Tech": "React, React-router, Emailjs, CSS, Universiell utforming",
+        "Tech": "React, React-router, Emailjs, CSS, Universiell utforming, nginx",
         "Github": "https://github.com/KristofferLesteberg/Portfolio"
     },
 
@@ -35,6 +35,7 @@
         "image": "/Pictures/ClassLinkProsjekt.png",
         "Description": "Første prosjektet på Vg2 og som var et samarbeids prosjekt sammen med en annen fra klassen. Appliksjonen går ut på å logge inn med brukernavn og passord der man blir møtt med en chat. Denne chatten oppdateres i real time og man kan se meldinger som er gamle eller om  man oppdatere siden. Prosjektet ble lagd for at klassen kan linke sammmen",
         "Status": "Ferdig, ble tatt over",
+        "Tech":"React, Supabase, web-sockets, autentisering, bruker håndtering",
         "Github": "https://github.com/KristofferLesteberg/ClassLink"
 
     },
