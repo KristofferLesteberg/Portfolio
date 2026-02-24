@@ -6,7 +6,7 @@ import App from './App.jsx'
 import ErrorPage from './Pages/Errorpage.jsx'
 import Contact from './Pages/Contact.jsx'
 import About from './Pages/About.jsx'
-import Skills from './Pages/Skills.jsx'
+
 
 import {
   createBrowserRouter,
@@ -31,10 +31,7 @@ const router = createBrowserRouter([
     path: "/kristoffer",
     element: <About />
    },
-   {
-    path: "ferdigheter",
-    element: <Skills />
-   }
+  
 ])
 
 

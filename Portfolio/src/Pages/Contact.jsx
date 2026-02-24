@@ -29,16 +29,17 @@ const Contact = () => {
               </b></p>
                <div className={styles.options}>
                 <p><b>Sosiale medier:</b></p>
-                 <a href="https://www.linkedin.com/in/kristoffer-lesteberg-724a6537a/"><i className="fa fa-linkedin-square"></i>LinkedIn</a>
-                 <a href="https://www.instagram.com/kristofferihme/"><i className="fa fa-instagram"></i>Instagram</a>
-                 <a href="https://www.facebook.com/profile.php?id=100070669974580"><i className="fa fa-facebook"></i>Facebook</a>
-                 <a href="https://github.com/KristofferLesteberg"><i className="fa fa-github"></i>Github</a>
+                <div className={styles.soMe}>
+                  <a href="https://www.linkedin.com/in/kristoffer-lesteberg-724a6537a/"><i className="fa fa-linkedin-square"></i>LinkedIn</a>
+                  <a href="https://www.instagram.com/kristofferihme/"><i className="fa fa-instagram"></i>Instagram</a>
+                  <a href="https://www.facebook.com/profile.php?id=100070669974580"><i className="fa fa-facebook"></i>Facebook</a>
+                  <a href="https://github.com/KristofferLesteberg"><i className="fa fa-github"></i>Github</a>
+                 </div>
                </div>
 
             </div>
             <div className={`${styles.rightSection} ${styles.section}`}>
               <MessageMe />
-              
             </div>
           </div>
 

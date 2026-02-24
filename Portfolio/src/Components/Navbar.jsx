@@ -27,11 +27,6 @@ return <>
           Prosjekter
           </Link>
         <Link 
-          to={"/ferdigheter"} 
-          className={styles.navItem}>
-          Teknologier
-          </Link>
-        <Link 
           to={"/kontakt"} 
           className={styles.navItem}>
           Kontakt meg
