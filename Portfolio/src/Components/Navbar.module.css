@@ -20,15 +20,20 @@
 }
 
 .mobileNavBar {
+
+
+  border-radius: 5px;
+
   padding: 7px;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   position: absolute;
   right: 1px;
   display: flex;
   flex-direction: column;
 
   background-color: var(--secondary-bg-color);
-  height: 50vw;
+  
   
  
   gap: 2rem;
