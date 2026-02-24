@@ -29,7 +29,7 @@ const Projects = () => {
                       <span>Status:</span><br /> {project.Status}
                     </p>
                     <p>
-                      <span>Tech stack:</span><br />{project.Tech}
+                      <span>Teknologier:</span><br />{project.Tech}
                     </p>
                     <p>
                       <span>Github: </span><a href={project.Github}><br />Trykk her!</a>

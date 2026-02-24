@@ -13,8 +13,9 @@
         "id": 2,
         "name": "Portfolio webiste",
         "image": "/Pictures/PortfolioProsjekt.png",
-        "Description": "",
+        "Description": "Prosjektet du ser på akkurat nå. Mitt eget nettsted der jeg viser fram prosjekter, ferdigheter og hvem jeg er. Dette prosjektet blir jeg nok aldri ferdig med fordi jeg vil og håper at jeg vil alltid utvikle meg selv som programmere og lage nye kule prosjekter",
         "Status": "Pågående",
+        "Tech": "React, React-router, Emailjs, CSS, Universiell utforming",
         "Github": "https://github.com/KristofferLesteberg/Portfolio"
     },
 
@@ -22,6 +23,9 @@
         "id": 3,
         "name": "Soduko generator",
         "image": "/Pictures/SodukoGeneratorProsjekt.png",
+        "Description": "Et prosjekt som ble lagd basert på en periode der interessen for soduko var veldig høy. Var ikke fornøyd med noen jeg fant på nett så bestemte meg for å lage et selv. Programmet lager et gyldig soduko brett og basert på spillerens input fjerner tall. Det er nå opp til brukeren å fylle inn resten",
+        "Status": "Ferdig, muligens kommer tilbake",
+        "Tech": "c++, backtracking algoritme",
         "Github": "https://github.com/KristofferLesteberg/Soduko_game"
     },
 
@@ -29,7 +33,7 @@
         "id": 4,
         "name": "Classlink",
         "image": "/Pictures/ClassLinkProsjekt.png",
-        "Description": "",
+        "Description": "Første prosjektet på Vg2 og som var et samarbeids prosjekt sammen med en annen fra klassen. Appliksjonen går ut på å logge inn med brukernavn og passord der man blir møtt med en chat. Denne chatten oppdateres i real time og man kan se meldinger som er gamle eller om  man oppdatere siden. Prosjektet ble lagd for at klassen kan linke sammmen",
         "Status": "Ferdig, ble tatt over",
         "Github": "https://github.com/KristofferLesteberg/ClassLink"
 

@@ -20,8 +20,6 @@
 }
 
 .mobileNavBar {
-
-
   border-radius: 5px;
 
   padding: 7px;
@@ -33,9 +31,7 @@
   flex-direction: column;
 
   background-color: var(--secondary-bg-color);
-  
-  
- 
+
   gap: 2rem;
   color: var(--secondary-txt-color);
   
