@@ -14,17 +14,17 @@ const AboutMe = () => {
                 <div className={`${styles.school} ${styles.item}`}>
                     <img src={SamEyde} />
                     <h2>Elev ved Sam Eyde vgs.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam provident illo blanditiis pariatur veniam similique perspiciatis eligendi quibusdam eum id et, placeat maiores excepturi vitae, quaerat consequatur eveniet praesentium neque.</p>
+                    <p>Jeg går på Informasjonsteknologi vg2 på Sam Eyde. Ved å velge Informasjonsteknologi har jeg lært ufattelig mye spennede - alt fra programmering, server oppsett, nettverk og litt av hvert innenfor det store tema IT.</p>
                 </div>
                 <div className={`${styles.hobbies} ${styles.item}`}>
                     <img src={leader} />
                     <h2>Daglig leder</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus quaerat odio quos magni. Excepturi quia ut magni libero corrupti. Blanditiis ullam error vel sint deleniti. Aliquam quidem saepe corrupti molestias!</p>
+                    <p>Jeg er daglig leder av Sam-IT UB. Vi er en bedrift som er opptatt av at kundene skal bli fornøyde og gjennomfører alt av utvikling av nettsteder til brukerstøtte. Jeg som daglig leder har ansvar for kundene, kontakt med lærer, men er også med å hjelpe de ansatte.</p>
                 </div>
                 <div className={`${styles.intrest} ${styles.item}`}>
                     <img src={codeExample} />
-                    <h2>Teknologi intressert</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nihil, pariatur error at officia dolorum esse beatae dolore, tempora laborum tenetur eum fugit! Architecto, veritatis reprehenderit laudantium dolorem tempora quibusdam.</p>
+                    <h2>Teknologi interessert</h2>
+                    <p>Som man kanskje også skulle tro er jeg veldig fan av IT - om dette er programmering eller servere synes jeg som regel det er spennende. Denne interessen er ganske ny, men er en jeg har blitt veldig opphengt i og noe jeg vil forsette å være</p>
                 </div>
             </div>
         </div>
